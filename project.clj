@@ -32,7 +32,7 @@
                                :target         :nodejs
                                :parallel-build true
                                :source-map     true
-                               :npm-deps       {:electron "1.8.1"
+                               :npm-deps       {:electron "1.8.3"
                                                 :ws       "3.3.1"}}}
 
                {:id           "main"
@@ -46,7 +46,7 @@
                                :parallel-build true
                                :process-shim   true
                                :pretty-print   false
-                               :npm-deps       {:electron "1.8.1"}}}
+                               :npm-deps       {:electron "1.8.3"}}}
 
                {:id           "ui-dev"
                 :source-paths ["src/radio"]
@@ -60,7 +60,7 @@
                                :target         :nodejs
                                :parallel-build true
                                :source-map     true
-                               :npm-deps       {:electron              "1.8.1"
+                               :npm-deps       {:electron              "1.8.3"
                                                 :react                 "15.6.2"
                                                 :react-dom             "15.6.2"
                                                 :electron-default-menu "1.0.1"
@@ -78,7 +78,7 @@
                                :parallel-build true
                                :process-shim   true
                                :pretty-print   false
-                               :npm-deps       {:electron              "1.8.1"
+                               :npm-deps       {:electron              "1.8.3"
                                                 :react                 "15.6.2"
                                                 :react-dom             "15.6.2"
                                                 :electron-default-menu "1.0.1"
@@ -108,7 +108,7 @@
                                :process-shim   true
                                :target         :nodejs
                                :parallel-build true
-                               :npm-deps       {:electron "1.8.1"}}}]}
+                               :npm-deps       {:electron "1.8.3"}}}]}
 
   :aliases {"electron" ["shell" "node_modules/.bin/electron" "resources/main.js"]
             "build"    ["do" "clean" ["cljsbuild" "once" "worker" "main" "ui"]]
