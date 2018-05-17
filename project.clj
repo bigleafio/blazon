@@ -1,6 +1,6 @@
 (defproject radio "1.0.0"
-  :description "Pomodoro electron app written in ClojureScript"
-  :url "http://github.com/"
+  :description "Radio electron app written in ClojureScript"
+  :url "http://github.com/bigleafio/blazon"
   :license {:name "Eclipse Public License"
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
 
